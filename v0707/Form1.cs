@@ -31,12 +31,14 @@ namespace v0707
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{data[0] + data[1] + data[2]}");
+            int sum = data[0] + data[1] + data[2];
+            MessageBox.Show($"{sum}");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{(data[0] + data[1] + data[2]) / 3}");
+            float ave = ((float)data[0] + data[1] + data[2]) / 3;
+            MessageBox.Show($"{ave}");
         }
     }
 }
